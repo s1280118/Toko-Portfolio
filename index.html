@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Toko Mori</title>
+    <link rel="stylesheet" href="./assets/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <div class="page-cover bg-3 text-dark">
+        <h1 class="page-title text-1">Portfolio of Toko Mori</h1>
+
+        <div class="card-cover bg-white">
+          <h2 class="card-title-cover bg-2 text-light">
+            <div class="card-title">English Title</div>
+            <div class="card-subtitle">日本語タイトル</div>
+            <div class="card-title-line"></div>
+          </h2>
+          <div class="card-contents">内容</div>
+        </div>
+
+        <div style="height: 20px"></div>
+
+      <div class="card-cover bg-white">
+        <h2 class="card-title-cover bg-2 text-light">
+          <div class="card-title">Self-Introduction</div>
+          <div class="card-subtitle">自己紹介</div>
+          <div class="card-title-line"></div>
+        </h2>
+        <div class="card-contents">
+          <div class="card-basic-info-layout">
+            <div style="flex-grow: 1">
+              <div style="display: flex; gap: 1em; align-items: flex-end">
+                <h3 style="margin: 0; font-size: 2rem">森　瞳子</h3>
+                <span style="padding-bottom: 4px">モリ　トウコ</span>
+              </div>
+              <div class="bg-2" style="height: 2px"></div>
+              <div class="text-2" style="font-size: 0.95rem">Toko MORI</div>
+
+              <div
+                class="text-1"
+                style="display: flex; gap: 0.5em; align-items: center"
+              >
+                <img src="./assets/icons/email.svg" alt="Email のアイコン" />
+                <span>Kawarimono105@gmail.com</span>
+              </div>
+
+              <div>会津大学 コンピュータ理工学部 コンピュータ理工学科 3年</div>
+            </div>
+          </div>
+        </div>
+        <div class="card-contents">
+          <span class="card-basic-info-label bg-1 text-light">自己紹介</span>
+          <p>
+            　はじめまして、森　瞳子
+            と申します。このポートフォリオにて、私の趣味やスキルを紹介します。
+            これは、私のWebの初めての制作物です。どうぞご覧ください。
+          </p>
+        
+        </div>
+      </div>
+
+      <div style="height: 20px"></div>
+
+      <div class="card-cover bg-white">
+        <h2 class="card-title-cover bg-2 text-light">
+          <div class="card-title">Hobby</div>
+          <div class="card-subtitle">趣味</div>
+          <div class="card-title-line"></div>
+        </h2>
+        <div class="card-contents">
+          　私の趣味は、絵を描くことや、CG制作です。
+          下の画像は、私が考えた擬人化キャラクターのイラストと、3Dモデルになります。
+        </div>
+        <div
+          class="swiper-area"
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-title">地球擬人化　イラスト</div>
+              <img src="./assets/photos/Earth_20220928150235.PNG" alt="地球擬人化　イラスト" />
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-title">地球擬人化　3D</div>
+              <img
+                src="./assets/photos/Earth.png"
+                alt="地球擬人化　3D"
+                style="width: auto"
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+        <div style="height: 40px"></div>
+
+      <footer class="footer-cover bg-2 text-light">
+        <div style="height: 4px; background-color: rgba(0, 0, 0, 0.1)"></div>
+        <div class="footer-contents">&copy; This is my web page.</div>
+      </footer>
+    </div>
+
+    <div style="height: 20px"></div>
+
+      <div class="card-cover bg-white">
+        <h2 class="card-title-cover bg-2 text-light">
+          <div class="card-title">Skill</div>
+          <div class="card-subtitle">スキル</div>
+          <div class="card-title-line"></div>
+        </h2>
+        <div class="card-contents tile-grid-cover">
+          <div class="card-tile">
+            <div class="card-tile-title">
+              <span>HTML / CSS</span>
+              <small>3年</small>
+            </div>
+            <div class="card-tile-text">
+              　Web のフロントサイドの言語です。
+              大学の講義では習わないため、学習サイトや購入した参考書で学び
+              ポートフォリオサイトを作成しました。
+            </div>
+          </div>
+
+          <div class="card-tile">
+            <div class="card-tile-title">
+              <span>C</span>
+              <small>1年</small>
+            </div>
+            <div class="card-tile-text">
+              ソフトウェアやロボットの開発など、さまざまな場面で使われる言語です。
+              大学の授業で使う頻度が一番高いため、基礎はしっかりできていますが、ファイル
+              操作やポインタで大苦戦しています。
+            </div>
+          </div>
+
+          <div class="card-tile">
+            <div class="card-tile-title">
+              <span>C++</span>
+              <small>3年</small>
+            </div>
+            <div class="card-tile-text">
+              先程述べたC言語の拡張の1つである言語です。
+              今のところは私の卒業研究で扱うソフトウェアでしか触れていませんが、これ
+              からC++を授業で詳しく学んでいきます。
+            </div>
+          </div>
+
+          <div class="card-tile">
+            <div class="card-tile-title">
+              <img
+                src="./assets/logos/nodejs.svg"
+                alt="Node.jsロゴ"
+                width="80"
+              />
+              <span>JavaScript / Node.js</span>
+              <small>1年</small>
+            </div>
+            <div class="card-tile-text">
+              　Web 系で最も有名な言語です。
+              フロントサイドでは、動きのある動作を作るために使用しました。
+              Node.js は、ビルドに使用したことがあります。 TypeScript
+              も合わせて勉強しています。
+            </div>
+          </div>
+
+          <div class="card-tile">
+            <div class="card-tile-title">
+              <span>Java (Android)</span>
+              <small>2年</small>
+            </div>
+            <div class="card-tile-text">
+              　大学の講義で学習しました。 オブジェクト指向が難しいです。
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-area', {
+        direction: 'horizontal',
+        spaceBetween: 30,
+        autoplay: { delay: 10 * 1000, disableOnInteraction: false },
+        loop: true,
+        pagination: { el: '.swiper-pagination' },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      })
+    </script>
+  </body>
+</html>
